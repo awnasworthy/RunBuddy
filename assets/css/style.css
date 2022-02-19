@@ -76,7 +76,7 @@ body {
     width: 500px;
     border: solid 10px #024e76;
     position: absolute;
-    bottom: 120px;
+    bottom: 375px;
     right: 140px;
   }
   .hero-form p {
@@ -102,6 +102,29 @@ body {
     font-size: 16px;
     margin-top: 10px;
   }
+  /*What We Do CSS Start*/
+
+  .intro {
+    text-align: center;
+  }
+
+  .intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  display:inline-block
+  }
+  .intro p {
+    line-height: 1.7;
+    color:#39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
   h3 {
     font-size: 25px;
     margin: 0px;
