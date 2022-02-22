@@ -12,3 +12,4 @@ https://awnasworthy.github.io/RunBuddy/
 
 ## Contribution
 Made with ❤️ by Ally
+### ©️2019 Run Buddy, Inc 
