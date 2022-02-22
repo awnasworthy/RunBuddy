@@ -242,3 +242,10 @@ body {
 }
 
 /* REACH OUT STYLES END */
+/* secondary page hero */
+.hero-secondary {
+  margin: 20px;
+  background-color: black;
+  font-size: 20px;
+  color: red;
+}
