@@ -18,6 +18,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -96,6 +104,8 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
 
 }
 
@@ -116,11 +126,13 @@ section {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 
 }
 
@@ -141,6 +153,7 @@ section {
   width: 100%;
   margin-bottom: 15px; 
   background-color: rgba(255,255,255, 0.75);
+  border-radius: 10px;
 }
 
 .form-input:focus {
@@ -162,6 +175,7 @@ section {
 
 .hero-form button:hover {
   background-color: #39a6b2;  
+  border-radius: 10px;
 }
 
 /* HERO STYLES END */
@@ -345,10 +359,15 @@ max-width: 100%;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(225, 225, 225, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+background-color: rgba(255,255,255, 1)
 }
 
 .contact-form button {
@@ -359,6 +378,7 @@ max-width: 100%;
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .contact-form button:hover {
@@ -384,6 +404,7 @@ max-width: 100%;
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
